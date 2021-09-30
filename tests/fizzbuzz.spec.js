@@ -7,10 +7,10 @@ describe("FizzBuzz: ", function () {
 
         let results = [];
 
-        expect(results[1]).toBe(1);
-        expect(results[3]).toBe("Fizz");
-        expect(results[10]).toBe("Buzz");
-        expect(results[30]).toBe("FizzBuzz");
-        expect(results[52]).toBe(52);
+        expect(results[1]).toEqual(1);
+        expect(results[3]).toEqual("Fizz");
+        expect(results[10]).toEqual("Buzz");
+        expect(results[30]).toEqual("FizzBuzz");
+        expect(results[52]).toEqual(52);
     });
 });

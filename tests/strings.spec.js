@@ -3,7 +3,7 @@ describe("String tests:", function () {
         let string = "This is the Room58 JS test";
         let result = "";
 
-        expect(result).toBe("tset SJ 85mooR eht si sihT");
+        expect(result).toEqual("tset SJ 85mooR eht si sihT");
     });
 
     it("should determine if two strings are anagrams of each other", function () {
@@ -11,8 +11,8 @@ describe("String tests:", function () {
             return true;
         }
 
-        expect(isAnagram("listen", "silent")).toBe(true);
-        expect(isAnagram("room58", "test")).toBe(false);
+        expect(isAnagram("listen", "silent")).toEqual(true);
+        expect(isAnagram("room58", "test")).toEqual(false);
     });
 
     it("should determine if the string is a palindrome", function () {
@@ -21,7 +21,7 @@ describe("String tests:", function () {
             return true;
         }
 
-        expect(isPalindrome("racecar")).toBe(true);
-        expect(isPalindrome("developer")).toBe(false);
+        expect(isPalindrome("racecar")).toEqual(true);
+        expect(isPalindrome("developer")).toEqual(false);
     });
 });

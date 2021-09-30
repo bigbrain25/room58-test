@@ -6,9 +6,9 @@ describe("Roman numerals: ", function () {
             return '';
         }
 
-        expect(getRomanNumeral(1)).toBe('I');
-        expect(getRomanNumeral(25)).toBe('XXV');
-        expect(getRomanNumeral(325)).toBe('CCCXXV');
-        expect(getRomanNumeral(1234)).toBe('MCCXXXIV');
+        expect(getRomanNumeral(1)).toEqual('I');
+        expect(getRomanNumeral(25)).toEqual('XXV');
+        expect(getRomanNumeral(325)).toEqual('CCCXXV');
+        expect(getRomanNumeral(1234)).toEqual('MCCXXXIV');
     });
 });
