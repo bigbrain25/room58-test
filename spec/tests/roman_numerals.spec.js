@@ -3,7 +3,8 @@ describe("Roman numerals: ", function () {
         // The function below should work for any integer between 1 and 3000
         function getRomanNumeral(input)
         {
-            return '';
+            let result = '';
+            return result;
         }
 
         expect(getRomanNumeral(1)).toEqual('I');

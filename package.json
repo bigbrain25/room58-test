@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "jasmine": "^3.6.4"
+    "jasmine": "^3.9.0",
+    "jasmine-spec-reporter": "^7.0.0"
   }
 }

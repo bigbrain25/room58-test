@@ -3,7 +3,7 @@ describe("Array tests:", function () {
         let input = [1, 2, 3, 4, 5];
         let result = [];
 
-        expect(result).toEqual([2, 3, 4, 1, 5, 6]);
+        expect(result).toEqual([2, 3, 4, 1, 5]);
     });
 
     it("should add an element to the start of the array", function() {
