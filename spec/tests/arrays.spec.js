@@ -29,11 +29,6 @@ describe("Array tests:", function () {
         let max = result[0];
         //check to get max item
         result.forEach(item => max < item ? max = item : null );
-
-             // if (max < item) {
-            //     max = item;
-            // }
-       
         expect(max).toEqual(100);
     });
 
