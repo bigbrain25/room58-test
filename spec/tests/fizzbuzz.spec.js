@@ -4,8 +4,16 @@ describe("FizzBuzz: ", function () {
         // For numbers which are multiples of both three and five store “FizzBuzz”.
 
         // e.g. [0, 1, 2, "Fizz", 4, "Buzz", ...]
-
-        let results = [];
+        let results = []
+        //looped through an array of number from 0 - 100 with an increment of +1
+        for (let i = 0; i <= 100; i++)
+        {
+            if (i % 3 === 0 && i % 5 === 0) results.push("FizzBuzz");   
+            else if (i % 3 === 0) results.push("Fizz")        
+            else if (i % 5 === 0) results.push("Buzz");
+            else results.push(i);
+        }
+        results;
 
         expect(results[1]).toEqual(1);
         expect(results[3]).toEqual("Fizz");
